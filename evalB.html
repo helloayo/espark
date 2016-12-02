@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Multiple Choice</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/quiz.css">
+    
+ <!-- js
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>  
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="quiz container">
+    <div class="row">
+      <div class="twelve columns">
+          <header>
+  <small>The 8 Parts of Speech</small>
+</header>
+          <div id="emc-score"></div>
+        </div>
+      </div>
+     
+<div class="wrap">
+  <div class="row">
+  <section class="six columns" data-quiz-item>
+    <div class="question">What describes a person, place, thing or idea?</div>
+    <div class="choices" data-choices='["Nouns",  "Adjectives" , "Adverbs", "Pronouns"]' data-feedback='["Correct. Nouns are words that name things.",  "Actually, a noun is a word for a person, place, thing or idea"]'>    
+    </div>
+  </section>
+  <section class="six columns" data-quiz-item>
+    <div class="question">What modifies verbs or other parts of speech?</div>
+    <div class="choices" data-choices='["Nouns", "Verbs", "Pronouns", "Adverbs"]' data-feedback='["Correct. Adverbs are mainly used to modify verbs. They are used to express when, where, how, for what reason, or to what degree an action is performed.",  "Actually, an adverb modifies verbs or other parts of speech"]'>
+    </div>
+  </section>
+  </div>
+  <div class="row">
+   <section class="six columns" data-quiz-item>
+    <div class="question">What links words, phrases or clauses?</div>
+    <div class="choices" data-choices='["Interjections", "Adjectives" , "Adverbs",  "Conjunctions"]' data-feedback='["Correct. A conjunction is a word used to connect words, phrases or clauses.",  "Actually, a conjunction is what links words, phrases or clauses"]'>
+    </div>
+  </section>
+    <section class="six columns" data-quiz-item>
+     <div class="question">Which part of speech expresses action or a state of being?</div>
+    <div class="choices" data-choices='["Adverbs", "Verbs", "Adjectives", "Prepositions"]' data-feedback='["Correct. Verbs are often described as doing words. A verb usually tells us what action is being performed.",  "Actually, a verb is what expresses action or a state of being."]'>
+    </div>
+  </section>
+  </div>
+   <div class="row">
+   <section class="six columns" data-quiz-item>
+    <div class="question">What modifies a noun or pronoun?</div>
+    <div class="choices" data-choices='["Adjectives" , "Adverbs", "Conjunctions" , "Interjections"]' data-feedback='["Correct. Adjectives are describing words. They are used either before or after a noun (or a pronoun) to modify its meaning.",  "Actually, an adjective modifies a noun or pronoun."]'>
+    </div>
+  </section>
+   <section class="six columns" data-quiz-item>
+    <div class="question">What replaces nouns?</div>
+    <div class="choices" data-choices='["Verbs", "Adjectives" , "Adverbs", "Pronouns"]' data-feedback='["Correct. A pronoun is a word that can be used to replace a noun, like he, this, who, or all.",  "Actually, a pronoun replaces a noun"]'>
+    </div>
+  </section>
+  </div>
+   <div class="row last">
+   <section class="six columns" data-quiz-item>
+    <div class="question">What tells you where something happened, when it happened or how it happened?</div>
+    <div class="choices" data-choices='["Prepositions", "Nouns", "Verbs", "Adverbs"]' data-feedback='["Correct. Prepositions are usually short words (e.g., on, in, at, about, for). Prepositions are placed before a noun to show that noun&rsquo;s relationship to something else in the sentence.",  "Actually, a preposition tells you where something happened, when it happened or how it happened"]'>
+    </div>
+  </section>
+    <section class="six columns" data-quiz-item>
+    <div class="question">What interrupts sentences?</div>
+    <div class="choices" data-choices='[ "Prepositions",  "Pronouns", "Interjections",  "Conjunctions"]' data-feedback='["Correct. Interjections are words used to express strong feeling or sudden emotion. They are included in a sentence, usually at the start, to express some type of emotion such as disgust, joy, excitement, or enthusiasm.",  "Actually, interjections interrupt sentences"]'>
+    </div>
+  </section>
+  </div>
+  <div class="submit">
+  <button id="emc-submit">Submit Answers</button>
+  </div>
+</div>
+
+<footer>
+<div id="emc-progress"></div>
+</footer>
+    </div>
+
+
+  <script src="js/multi.js"></script>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

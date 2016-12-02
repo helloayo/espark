@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Drag and Drop</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/quiz.css">
+ <!-- js
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>  
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="dnd quiz container">
+    <div class="row">
+      <div class="twelve columns">
+          <header> <small>Fill in the blanks by dragging the missing answer. Correct answers will turn green.</small></header>
+     
+          <div class="wrap row">
+      <section class="three columns">
+          <ul class="missing-words__answers">
+      <li class="missing-words__answers-item draggable word-1"><span class="missing-words__draggable draggable word-1">Nouns</span></li>
+      <li class="missing-words__answers-item draggable word-2"><span class="missing-words__draggable draggable word-2">Verbs</span></li>
+      <li class="missing-words__answers-item draggable word-3"><span class="missing-words__draggable draggable word-3">Adjectives</span></li>
+      <li class="missing-words__answers-item draggable word-4"><span class="missing-words__draggable draggable word-4">Adverbs</span></li>
+      <li class="missing-words__answers-item draggable word-5"><span class="missing-words__draggable draggable word-5">Pronouns</span></li>
+      <li class="missing-words__answers-item draggable word-6"><span class="missing-words__draggable draggable word-6">Prepositons</span></li>      
+      <li class="missing-words__answers-item draggable word-7"><span class="missing-words__draggable draggable word-7">Conjunctions</span></li>
+      <li class="missing-words__answers-item draggable word-8"><span class="missing-words__draggable draggable word-8">Interjections</span></li>
+    </ul>
+
+</section>
+       
+          
+<div class="nine columns">
+   <section class="twelve columns" data-quiz-item>
+    <p class="question"><span class="missing-words__blank blank" data-accept="word-2"></span> expresses action or a state of being.</p>
+  </section>
+    <section class="twelve columns" data-quiz-item>
+    <p class="question">You can replace nouns with <span class="missing-words__blank blank" data-accept="word-5"></span>.</p>
+  </section>
+    <section class="twelve columns" data-quiz-item>
+    <p class="question">To modify a noun or pronoun, use <span class="missing-words__blank blank" data-accept="word-3"></span>.</p>
+  </section>
+    <section class="twelve columns" data-quiz-item>
+    <p class="question"><span class="missing-words__blank blank" data-accept="word-8"></span> interrupt sentences.</p>
+  </section>
+    <section class="twelve columns" data-quiz-item>
+    <p class="question"><span class="missing-words__blank blank" data-accept="word-4"></span> modifies verbs or other parts of speech.</p>
+  </section>
+    <section class="twelve columns" data-quiz-item>
+    <p class="question">And, but, or are <span class="missing-words__blank blank" data-accept="word-7"></span>. They link words, phrases or clauses.</p>
+  </section>
+    <section class="twelve columns" data-quiz-item>
+    <p class="question"><span class="missing-words__blank blank" data-accept="word-1"></span> are a person, place, thing or idea.</p>
+  </section>
+    <section class="twelve columns" data-quiz-item>
+    <p class="question">The links between words, known as <span class="missing-words__blank blank" data-accept="word-6"></span> tell you where, when, and how something happened.</p>
+  </section>
+            </div>
+        </div>
+         
+
+              </div>
+
+    </div>
+    </div>
+     
+
+  <script src="js/dnd.js"></script>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
