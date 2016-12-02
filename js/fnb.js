@@ -29,7 +29,8 @@
 				for (var i = 0; i < choices.length; i++) {
 					$option = $('<input name="' + index + '" id="' + index + '_' + i + '" class="speech-input" type="text">');
 					$choiceEl.append($option);
-					$option.on('change',  function() {
+					$option.on('input',  function() {
+                        
 						return getChosen();
 					});
 				}
@@ -44,12 +45,11 @@
 				
 				$inputs.each(function(index,value) {
 					if ($(this).val() != '') {
+                        console.log($(this).val());
 				    if ($(this).val().toLowerCase() == answer || $(this).val().toLowerCase() == answer+'s' || $(this).val().toLowerCase() == 'a'+' '+answer || $(this).val().toLowerCase() == 'an'+' '+answer) {
-                            console.log('right');
 							chosen.push(1);
                             
 						} else {
-                            console.log('wrong');
 							chosen.push(2);
 						}
 					}
