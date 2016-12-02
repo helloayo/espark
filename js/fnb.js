@@ -29,7 +29,7 @@
 				for (var i = 0; i < choices.length; i++) {
 					$option = $('<input name="' + index + '" id="' + index + '_' + i + '" class="speech-input" type="text">');
 					$choiceEl.append($option);
-					$option.on('input', 'change', function() {
+					$option.on('input propertychange', function() {
 						return getChosen();
 					});
 				}
