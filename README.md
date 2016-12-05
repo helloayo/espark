@@ -50,6 +50,6 @@ Goal: Students should be able to identify the 8 parts of speech.
 The student will be presented with 8 definitions, with feedback for both right and wrong answers. Visually, students can see their progression and how well they did upon submitting. 
 
 * Response Capture  
-  * Student will speak or type the correct part of speech.   
+  * Student will speak or type the correct part of speech (needs to be in browser -> helloayo.com/espark/evalC.html)   
   * Feedback will be given upon submission, with correct responses in green, and incorrect responses in red.  
   * Assesment is complete upon submission.   
